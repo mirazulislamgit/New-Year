@@ -144,3 +144,30 @@ a {
     color: #737272;
 }
 /* End Plans CSS */
+
+/* Start Call-Now CSS */
+#call-now {
+    padding: 130px 0;
+}
+
+.call-now-area {
+    background: linear-gradient(to right, rgb(241, 91, 34), rgba(255, 255, 255, 0)), url('../images/watch.png');
+    padding: 59px 64px;
+    border-radius: 8px;
+}
+
+.call-now-area h4 {
+    width: 459px;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #fff;
+    padding-bottom: 24px;
+}
+
+#call-now .btn a {
+    background: #fff;
+    color: #F15B22;
+}
+/* End Call-Now CSS */
