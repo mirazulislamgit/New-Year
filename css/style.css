@@ -31,6 +31,7 @@ a {
     background: #F15B22;
     border-radius: 5px;
 }
+
 /* End Common CSS */
 
 /* Start Banner CSS */
@@ -64,3 +65,49 @@ a {
     padding: 24px 0px 32px 0px;
 }
 /* End Banner CSS */
+
+/* Start About CSS */
+#about {
+    padding-top: 130px;
+}
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    width: 416px;
+}
+
+.about-text h3 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #151414;
+}
+
+.about-text p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+    padding: 24px 0px 16px 0px;
+}
+
+.about-text ul li {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #444343;
+}
+
+.about-text ul li i {
+    font-size: 24px;
+    margin-right: 10px;
+    color: #16D887;
+}
+/* End About CSS */
