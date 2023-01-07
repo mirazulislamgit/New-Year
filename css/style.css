@@ -171,3 +171,81 @@ a {
     color: #F15B22;
 }
 /* End Call-Now CSS */
+
+/* Start Footer CSS */
+#footer {
+    background: #151414;
+    padding: 130px 0px;
+}
+
+.footer-area {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-info {
+    width: 485px;
+}
+
+.footer-info h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer-info p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 26px;
+    color: #fff;
+    padding: 16px 0px 24px 0px;
+}
+
+.footer-info a {
+    display: block;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-weight: 26px;
+    color: #fff;
+    padding-bottom: 16px;
+}
+
+.footer-icon {
+    padding-top: 16px;
+}
+
+.footer-icon img {
+    margin-right: 17px;
+}
+
+.footer-subscribe h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+    padding-bottom: 30px;
+}
+
+.footer-subscribe input {
+    display: block;
+    width: 305px;
+    height: 50px;
+    background-color: transparent;
+    border: solid 1px #fff;
+    border-radius: 10px;
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left: 20px;
+    margin-bottom: 16px;
+}
+
+#footer .btn a {
+    background: #fff;
+    color: #F15B22;
+}
+/* End Footer CSS */
