@@ -34,6 +34,35 @@ a {
 
 /* End Common CSS */
 
+/* Start NavBar CSS */
+
+.nav-area {
+    position: relative;
+}
+
+.nav-content {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.nav-content ul li {
+    display: inline;
+}
+
+.nav-content ul li a {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    color: #F15B22;
+    margin-right: 30px;
+}
+/* End NavBar CSS */
+
 /* Start Banner CSS */
 #banner {
     background: url('../images/Banner/banner1.png');
