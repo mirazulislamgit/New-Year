@@ -68,7 +68,7 @@ a {
 
 /* Start About CSS */
 #about {
-    padding-top: 130px;
+    padding: 130px 0;
 }
 .about-content {
     display: flex;
@@ -111,3 +111,36 @@ a {
     color: #16D887;
 }
 /* End About CSS */
+
+/* Start Plans CSS */
+.title h2 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 46px;
+    color: #151414;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.plans-itams-area {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.plans-item h4 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    padding: 10px 0;
+}
+
+.plans-item p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+}
+/* End Plans CSS */
